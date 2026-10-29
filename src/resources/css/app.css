@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+
+@source '../views/**/*.blade.php';
+
+@theme {
+    --font-sans: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+        'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+}
+
+@layer base {
+    :focus-visible {
+        outline: 2px solid var(--color-indigo-500);
+        outline-offset: 2px;
+    }
+
+    ::selection {
+        background-color: var(--color-indigo-100);
+    }
+}
