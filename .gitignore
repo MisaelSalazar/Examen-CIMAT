@@ -1,0 +1,20 @@
+# Entorno y secretos
+.env
+.env.*
+!.env.example
+
+# Archivos del enunciado / temporales
+Examen práctico.pdf
+*.log
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Editores
+.idea/
+.vscode/
+*.swp
+
+# Artefactos de Docker
+dbdata/
